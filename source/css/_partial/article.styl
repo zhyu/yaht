@@ -1,9 +1,9 @@
 .post,.page
   background color-section
   a
-    color color-blue 
+    color color-theme
     &:hover
-      color color-theme
+      color color-hover
 
 article
   header.article-info
@@ -16,7 +16,7 @@ article
       @media tablet
         font-size font-size+100
         padding-top 0.3em
-      word-wrap break-word 
+      word-wrap break-word
       word-break normal
       font-smoothing antialiased
       border-left 5px solid color-theme
@@ -40,10 +40,10 @@ article
         font-family font-icon-family
         font-size font-size+30
         content "\f017"
-        font-smoothing()      
+        font-smoothing()
   .article-content
     padding 1.5em 4%
-    .kb      
+    .kb
       padding .1em .6em
       border 1px solid color-gray
       background-color code-color
@@ -67,7 +67,7 @@ article
       margin 0.5em 0
       >code
         color darken(color-gray,20%)
-    hr 
+    hr
       border 1px solid lighten(color-gray,30%)
     strong
       font-weight bold
@@ -76,6 +76,7 @@ article
     acronym,abbr
       border-bottom 1px dotted
     blockquote
+      color color-quote
       border-left .2em solid color-theme
       margin 0.65em 0 0.65em 4%
       padding-left 1%
@@ -127,7 +128,7 @@ article
       height auto
       vertical-align middle
       padding-top 0.5em
-      @media tablet 
+      @media tablet
         padding-top 0.7em
     figcaption,.caption
       text-align center
@@ -154,7 +155,7 @@ article
         font-weight bold
         border-bottom 3px solid lighten(color-gray,30%)
         padding-bottom 0.5em
-      td 
+      td
         border-bottom 1px solid lighten(color-gray,30%)
         padding 10px 0
     .pullquote
