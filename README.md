@@ -134,3 +134,6 @@ google_cse:
 ## title: search
 ## ---
 ```
+
+##Add Your Site
+If you are using YAHT, you can add your site [here](https://github.com/zhyu/yaht/wiki/Sites)!
