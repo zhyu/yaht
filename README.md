@@ -4,6 +4,8 @@ Yet Another [Hexo](http://hexo.io) Theme based on [pacman](https://github.com/A-
 
 It's a simple and cool theme forked from pacman. Modified some colors. Added some features such as back-to-top.
 
+[Demo](http://zhyu.me/)
+
 ## Installation
 
 ### Install
